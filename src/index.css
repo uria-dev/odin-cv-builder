@@ -24,9 +24,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -65,4 +63,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color: #282c34;
+  border-radius: 0.5em;
+}
+
+.card {
+  padding: 2em;
 }
