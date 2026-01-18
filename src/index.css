@@ -76,10 +76,6 @@ button:focus-visible {
 }
 
 .left-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 2em;
   background-color: #282c34;
   border-radius: 0.5em;
@@ -87,4 +83,8 @@ button:focus-visible {
 
 .card {
   padding: 2em;
+}
+
+p {
+  font-size: 12px;
 }
